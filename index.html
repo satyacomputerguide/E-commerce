@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Dev-Shop</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="about.html" class="#home">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <button onclick="window.location.href='auth.html'">Login</button>
+            <button onclick="window.location.href='auth.html'">Sign Up</button>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <script>
+        // Toggle menu for small screens
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
+
+
+
+ <!-- Hero Slider -->
+<section class="hero-slider" id="home">
+    <div class="hero-container">
+        <!-- Left Side: Image -->
+        <div class="hero-image">
+            <img src="assets/pexels-panther-2092474-removebg-preview.png" alt="Hero Image">
+        </div>
+
+        <!-- Right Side: Text and Buttons -->
+        <div class="hero-text">
+            <h1>Trending Women Collection</h>
+            <p>Bold New Inspiration 2025</p>
+            <div class="hero-buttons">
+                <button onclick="window.location.href='#women-collection'">Shop Women</button>
+                <button onclick="window.location.href='#learn-more'">Learn More</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Product Categories -->
+    <section class="categories" id="categories">
+        <h2>Product Categories</h2>
+        <div class="category-list">
+            <div class="category-item">Electronics</div>
+            <div class="category-item">Fashion</div>
+            <div class="category-item">Home & Kitchen</div>
+            <div class="category-item">Beauty</div>
+            <div class="category-item">Sports</div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h2>Deals for You</h2>
+        <div class="product-grid">
+           
+        </div>
+    </section>
+    
+
+    <!-- Testimonials Section -->
+<section class="testimonials" id="testimonials">
+    <h2>What Our Customers Say ⭐</h2>
+    <div class="testimonial-grid">
+        <!-- Review 1 -->
+        <div class="testimonial-item">
+            <div class="rating-stars">
+                ★★★★★
+                <span class="rating-text">5/5</span>
+            </div>
+            <p>"The product quality and delivery speed exceeded my expectations. Best online shopping experience!"</p>
+            <div class="customer-info">
+                <div class="customer-image">
+                    <img src="assets/product_10.png" alt="Rupa Sharma">
+                </div>
+                <h4>Rupa Sharma</h4>
+                <span>Mumbai</span>
+            </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="testimonial-item">
+            <div class="rating-stars">
+                ★★★★☆
+                <span class="rating-text">4.2/5</span>
+            </div>
+            <p>"Great offers and excellent customer support. Will definitely shop here again!"</p>
+            <div class="customer-info">
+                <div class="customer-image">
+                    <img src="assets/product_11.png" alt="Priya Patel">
+                </div>
+                <h4>Priya Patel</h4>
+                <span>Delhi</span>
+            </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="testimonial-item">
+            <div class="rating-stars">
+                ★★★★★
+                <span class="rating-text">4.8/5</span>
+            </div>
+            <p>"Perfect packaging and exactly as described. Thank you E-Shop!"</p>
+            <div class="customer-info">
+                <div class="customer-image">
+                    <img src="assets/product_12.png" alt="Ruhi Gupta">
+                </div>
+                <h4>Vijay Gupta</h4>
+                <span>Bangalore</span>
+            </div>
+        </div>
+
+        <!-- Review 4 -->
+        <div class="testimonial-item">
+            <div class="rating-stars">
+                ★★★★☆
+                <span class="rating-text">4.5/5</span>
+            </div>
+            <p>"Minor issues resolved quickly by support team. Satisfied with service."</p>
+            <div class="customer-info">
+                <div class="customer-image">
+                    <img src="assets/product_13.png" alt="Raju Singh">
+                </div>
+                <h4>Rahul Singh</h4>
+                <span>Kolkata</span>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2023 Dev-Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
