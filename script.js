@@ -40,7 +40,7 @@ const products = [
         name: "Women Jacket", 
         price: "₹2,499",
         originalPrice: "₹4,999",
-        image: "assets/product_1.png",
+        image: "product_1.png",
         rating: 4.5,
         deal: "50% OFF"
     },
@@ -48,7 +48,7 @@ const products = [
         name: "Women Top", 
         price: "₹1,799",
         originalPrice: "₹3,499",
-        image: "assets/product_2.png",
+        image: "product_2.png",
         rating: 4.2,
         deal: "Flash Sale"
     },
@@ -56,7 +56,7 @@ const products = [
         name: "Women Top", 
         price: "₹1,299",
         originalPrice: "₹2,599",
-        image: "assets/product_3.png",
+        image: "product_3.png",
         rating: 4.8,
         deal: "Bestseller"
     },
@@ -64,7 +64,7 @@ const products = [
         name: "Women Wear", 
         price: "₹999",
         originalPrice: "₹1,999",
-        image: "assets/product_4.png",
+        image: "product_4.png",
         rating: 4.6,
         deal: "50% OFF"
     },
@@ -72,7 +72,7 @@ const products = [
         name: "Women Top", 
         price: "₹1,599",
         originalPrice: "₹2,999",
-        image: "assets/product_5.png",
+        image: "product_5.png",
         rating: 4.4,
         deal: "New Launch"
     },
@@ -80,7 +80,7 @@ const products = [
         name: "Women Top", 
         price: "₹2,199",
         originalPrice: "₹4,399",
-        image: "assets/product_6.png",
+        image: "product_6.png",
         rating: 4.7,
         deal: "Trending"
     },
@@ -88,7 +88,7 @@ const products = [
         name: "Women's T'shirt", 
         price: "₹1,999",
         originalPrice: "₹3,999",
-        image: "assets/product_7.png",
+        image: "product_7.png",
         rating: 4.3,
         deal: "Combo Offer"
     },
@@ -96,7 +96,7 @@ const products = [
         name: "Women T'shirt", 
         price: "₹1,899",
         originalPrice: "₹3,799",
-        image: "assets/product_8.png",
+        image: "product_8.png",
         rating: 4.5,
         deal: "Kitchen Essential"
     },
@@ -104,7 +104,7 @@ const products = [
         name: "Women Top", 
         price: "₹3,499",
         originalPrice: "₹6,999",
-        image: "assets/product_9.png",
+        image: "product_9.png",
         rating: 4.6,
         deal: "Mega Deal"
     }
